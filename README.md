@@ -17,13 +17,9 @@
 
 ### 그래프 (Graph)
 - [x] 2-SAT
-- [ ] BFS
 - [x] Dijkstra
 - [x] SCC
-- [ ] Union-Find
-
-### 수학 (Math)
-- [ ] Prefix Sum
+- [x] Union-Find
 
 ### 유틸리티 (Utils)
 - [x] Binary Search
