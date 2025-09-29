@@ -1,5 +1,5 @@
 /****************************************************/
-//https://github.com/tanso0126/PS-template.git
+//https://github.com/tanso0126/PS-template
 function binarySearch(v,x) {
     var l=0,r=v.length-1
     while(l<=r) {

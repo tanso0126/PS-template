@@ -1,5 +1,5 @@
 /****************************************************/
-//https://github.com/tanso0126/PS-template.git
+//https://github.com/tanso0126/PS-template
 class PQ {
     constructor(cmp=(a,b)=>a<b) {
         this.q=[]

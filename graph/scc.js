@@ -1,5 +1,5 @@
 /****************************************************/
-//https://github.com/tanso0126/PS-template.git
+//https://github.com/tanso0126/PS-template
 class SCC {
     constructor(n,cap=4) {
         this.n=n

@@ -1,5 +1,5 @@
 /****************************************************/
-//https://github.com/tanso0126/PS-template.git
+//https://github.com/tanso0126/PS-template
 class DQ {
     constructor(cap=1e5) {
         this.cap=cap

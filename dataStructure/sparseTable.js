@@ -1,5 +1,5 @@
 /****************************************************/
-//https://github.com/tanso0126/PS-template.git
+//https://github.com/tanso0126/PS-template
 class SparseTable {
     static min=(a,b)=>a<b?a:b
     static max=(a,b)=>a>b?a:b
