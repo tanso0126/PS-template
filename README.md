@@ -11,19 +11,19 @@
 - [x] Sparse Table (`dataStructure/sparseTable.js`)
 
 ### 기하 (Geometry)
-- [] CCW (`geometry/ccw.js`)
-- [] Convex Hull (`geometry/convexHull.js`)
-- [] Rotating Calipers (`geometry/rotatingCalipers.js`)
+- [ ] CCW (`geometry/ccw.js`)
+- [ ] Convex Hull (`geometry/convexHull.js`)
+- [ ] Rotating Calipers (`geometry/rotatingCalipers.js`)
 
 ### 그래프 (Graph)
 - [x] 2-SAT (`graph/2sat.js`)
-- [] BFS (`graph/bfs.js`)
+- [ ] BFS (`graph/bfs.js`)
 - [x] Dijkstra (`graph/dijkstra.js`)
-- [x] SCC (Strongly Connected Components) (`graph/scc.js`)
-- [] Union-Find (`graph/unionFind.js`)
+- [x] SCC (`graph/scc.js`)
+- [ ] Union-Find (`graph/unionFind.js`)
 
 ### 수학 (Math)
-- [] Prefix Sum (`math/prefixSum.js`)
+- [ ] Prefix Sum (`math/prefixSum.js`)
 
 ### 유틸리티 (Utils)
 - [x] Binary Search (`utils/binarySearch.js`)
