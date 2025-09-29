@@ -1,4 +1,6 @@
-class LazySeg { //js7777 SET
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
+class LazySeg {
     constructor(arr=[]) {
         this.clear(arr)
     }
@@ -73,3 +75,4 @@ class LazySeg { //js7777 SET
         //return this.min(L,R)
     }
 }
+/****************************************************/

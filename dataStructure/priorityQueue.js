@@ -1,3 +1,5 @@
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
 class PQ { //js7777 SET
     constructor(cmp=(a,b)=>a<b) {
         this.q=[]
@@ -41,3 +43,4 @@ class PQ { //js7777 SET
         return d
     }
 }
+/****************************************************/

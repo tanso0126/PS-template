@@ -1,3 +1,5 @@
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
 class SCC { //js7777 SET
     constructor(n,cap=4) {
         this.n=n
@@ -99,3 +101,4 @@ class SAT2 { //js7777 SET
         return {ok:1,dab:dab}
     }
 }
+/****************************************************/

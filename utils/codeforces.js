@@ -1,4 +1,4 @@
-"use strict" //js7777 SET
+"use strict"
 class Z{log(s){return print(s)}}
 const console=new Z()
 

@@ -1,4 +1,6 @@
-function binarySearch(v,x) { //js7777 SET
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
+function binarySearch(v,x) {
     var l=0,r=v.length-1
     while(l<=r) {
         var m=(l+r)>>1
@@ -8,3 +10,4 @@ function binarySearch(v,x) { //js7777 SET
     }
     return -1
 }
+/****************************************************/

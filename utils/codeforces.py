@@ -1,4 +1,4 @@
-import sys #js7777 SET
+import sys
 input = sys.stdin.readline
  
 t = int(input())

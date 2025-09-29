@@ -1,4 +1,6 @@
-class DQ { //js7777 SET
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
+class DQ {
     constructor(cap=1e5) {
         this.cap=cap
         this.q=new Array(cap)
@@ -59,3 +61,4 @@ class DQ { //js7777 SET
         return this.q[(this.f+i)%this.cap]
     }
 }
+/****************************************************/

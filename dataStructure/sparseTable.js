@@ -1,3 +1,5 @@
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
 class SparseTable { //js7777 SET
     static min=(a,b)=>a<b?a:b
     static max=(a,b)=>a>b?a:b
@@ -19,3 +21,4 @@ class SparseTable { //js7777 SET
         return this.op(this.t[j][l],this.t[j][r-(1<<j)+1])
     }
 }
+/****************************************************/

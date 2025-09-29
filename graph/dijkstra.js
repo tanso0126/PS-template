@@ -1,3 +1,5 @@
+/****************************************************/
+//https://github.com/tanso0126/PS-template.git
 class PQ { //js7777 SET
     constructor(cmp=(a,b)=>a<b) {
         this.q=[]
@@ -70,3 +72,4 @@ function path(to,f) {
     }
     return p.reverse()
 }
+/****************************************************/
