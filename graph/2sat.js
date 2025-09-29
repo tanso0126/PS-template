@@ -67,7 +67,7 @@ class SCC {
     }
 }
 
-class SAT2 { //js7777 SET
+class SAT2 {
     constructor(n) {
         this.n=n
         this.scc=new SCC(n*2)
