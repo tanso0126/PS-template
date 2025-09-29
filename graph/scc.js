@@ -1,6 +1,6 @@
 /****************************************************/
 //https://github.com/tanso0126/PS-template.git
-class SCC { //js7777 SET
+class SCC {
     constructor(n,cap=4) {
         this.n=n
         this.h=new Int32Array(n+1).fill(-1)

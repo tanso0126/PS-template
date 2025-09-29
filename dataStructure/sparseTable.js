@@ -1,6 +1,6 @@
 /****************************************************/
 //https://github.com/tanso0126/PS-template.git
-class SparseTable { //js7777 SET
+class SparseTable {
     static min=(a,b)=>a<b?a:b
     static max=(a,b)=>a>b?a:b
     static gcd=(a,b)=>!b?a:SparseTable.gcd(b,a%b)

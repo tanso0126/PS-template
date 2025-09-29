@@ -1,6 +1,6 @@
 /****************************************************/
 //https://github.com/tanso0126/PS-template.git
-class PQ { //js7777 SET
+class PQ {
     constructor(cmp=(a,b)=>a<b) {
         this.q=[]
         this.cmp=cmp
