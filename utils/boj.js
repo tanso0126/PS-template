@@ -1,0 +1,6 @@
+require('fs').readFileSync(0,'utf8').trim().split(' ')
+require('fs').readFileSync(0,'utf8').trim().split(' ').map(Number)
+require('fs').readFileSync(0,'utf8').trim().split('\n')
+require('fs').readFileSync(0,'utf8').trim().split('\n').map(Number)
+require('fs').readFileSync(0,'utf8').trim().split(/\s+/)
+require('fs').readFileSync(0,'utf8').trim().split(/\s+/).map(Number)
