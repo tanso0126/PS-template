@@ -15,6 +15,7 @@ class LazySeg {
         for(this.n=1;this.n<this.len;) this.n<<=1
         this.v=new Int32Array(this.n<<1)
         this.lz=new Int32Array(this.n<<1)
+        /*this.lz=Array(this.n<<1).fill().map(e=>[1,0])*/
         for(var i=0;i<this.len;i++) this.v[i+this.n]=arr[i]
         for(var i=this.n-1;i;i--) this.up(i)
     }
@@ -23,6 +24,13 @@ class LazySeg {
         //this.v[i]+=x
         this.lz[i]+=x
     }
+    /*
+    ap(i,x,s,e) {
+        this.v[i]=this.v[i]*x[0]+x[1]*(e-s+1)
+        //this.v[i]=this.v[i]*x[0]+x[1]
+        this.lz[i]=[this.lz[i][0]*x[0],this.lz[i][1]*x[0]+x[1]]
+    }
+    */
     ps(i,s,e) {
         if(this.lz[i]&&i<this.n) {
             var m=s+e>>1,L=i<<1,R=L|1
@@ -31,6 +39,16 @@ class LazySeg {
             this.lz[i]=0
         }
     }
+    /*
+    ps(i,s,e) {
+        if((this.lz[i][0]!=1||this.lz[i][1]!=0)&&i<this.n) {
+        var m=s+e>>1,L=i<<1,R=L|1
+        this.ap(L,this.lz[i],s,m)
+        this.ap(R,this.lz[i],m+1,e)
+        this.lz[i]=[1,0]
+        }
+    }
+    */
     up(i) {
         var L=i<<1,R=L|1
         this.v[i]=this.v[L]+this.v[R]
